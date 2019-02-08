@@ -17,7 +17,7 @@ body, html {
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("Figures/IMG_6222.jpg");
+    background-image: url("Figures/IMG_6222_2.jpg");
     min-height: 75%;
 }
 .w3-bar .w3-button {
@@ -118,7 +118,7 @@ body, html {
           <!-- <p class="w3-large">Exploring</p> -->
           <h3> Exploring</h3>
           <div class="w3-left">
-              <p>Besides studying the universe, I also enjoy camping and hiking. </p>
+              <p>Besides studying the universe, I also enjoy camping and hiking. I grew up with the mountains in the picture above out my back door.</p>
           </div>
     </div>
 
@@ -128,29 +128,46 @@ body, html {
 
 <!-- Work Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center w3-large">Some highlights of my work</p>
+  <h3 class="w3-center">SOME HIGHLIGHTS OF MY WORK</h3>
+  <!--<p class="w3-center w3-large"></p> -->
 
   <div class="w3-row-padding" style="margin-top:64px">
       <div class="w3-col l3 m6">
-          <p class="w3-center">LHC constraints on Dark Mesons</p>
+          <p class="w3-center">Dark Mesons could make up the dark matter in the Universe. Current LHC searches have surprisingly low sensitivity.
+              <a href='https://arxiv.org/abs/1809.10184'> [1809.10184] </a></p>
           <img src="Figures/SearchSummaries.png"
           style="width:100%"
           onclick="onClick(this)"
           class="w3-hover-opacity"
-          alt="A large class of models has suprisingly low LHC sensitivity with current search methods.">
+          alt="Dark Mesons would decay similar to a heavy Higgs, with some model dependence on the preference for gauge bosons or fermions.
+          With no current direct search, we recast many other searches designed for other models and the sensitivity to these models is very low.
+          ">
       </div>
       <div class="w3-col l3 m6">
-          <p class="w3-center">Unpacking what the machine is learning</p>
+          <p class="w3-center">Diving into machine learning to discover what is important for the machine to accurately classify. We "plane" away the information.
+              <a href='https://arxiv.org/abs/1709.10106'>
+
+                  [1709.10106] </a>
+          </p>
           <img src="Figures/BothDistributions.jpg"
           style="width:100%"
           onclick="onClick(this)"
           class="w3-hover-opacity"
-          alt="Give a brief description of data planing.">
+          alt="Computers are great at finding patterns to classify signal and background.
+          However, using this for physics, we want to know what it is learning.
+          Through 'planing' we are able to strip the machine of the ability to find a certain pattern, which helps to see how important it is.">
       </div>
-    <div class="w3-col l3 m6">
-      <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
-    </div>
+      <div class="w3-col l3 m6">
+          <p class="w3-center"> Searching for supersymmetric particles is one of the main goals of the LHC. There are excellent bound on "stop squarks" except for a small splinter.
+              <a href='https://arxiv.org/abs/1804.00111'> [1804.00111] </a></p>
+          <img src="Figures/FirstInset.jpg"
+          style="width:100%"
+          onclick="onClick(this)"
+          class="w3-hover-opacity"
+          alt='The "stealth stop" is notoriously hard to search for. This happens when the stop is close in mass to the top quark.
+          Besides difficult searches, the region of parameter space is also non-trivial to simulate, and we showcase some of the reasons, as well as providing a pedagogical guide.
+          ''>
+      </div>
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
     </div>
